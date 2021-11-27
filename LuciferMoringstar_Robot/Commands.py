@@ -16,7 +16,7 @@ LOG_CHANNEL = BROADCAST_CHANNEL
 
 db = Database(DB_URL, SESSION)
 
-START_MSG
+
             
             
          
@@ -160,8 +160,10 @@ async def start(bot, message):
         
                                         
                                         
-                                       InlineKeyboardButton(text="Updates 📢", url="t.me/Thanimaibots"),
-        InlineKeyboardButton(text="Support 💬", url="t.me/Thanimaisupport"),
+                                       InlineKeyboardButton(
+                                                   
+                                                  "Updates 📢", url="t.me/Thanimaibots"),
+        InlineKeyboardButton("Support 💬", url="t.me/Thanimaisupport"),
                                         ],
     
     
