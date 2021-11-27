@@ -289,18 +289,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
         elif query.data == "help":
             buttons = [[
-                InlineKeyboardButton('Update Channel', url='t.me/Mo_Tech_YT'),
-                InlineKeyboardButton('Source Code', url="https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot")
+                InlineKeyboardButton('Update Channel', url='t.me/Thanimaisupport'),
+                InlineKeyboardButton('Source Code', url="t.me/thanimaibots")
                 ],[
-                InlineKeyboardButton('💫Deploy Video💫', url=f'{TUTORIAL}')
+                InlineKeyboardButton('💫Developer💫', url="t.me/sarbudeen786")
                 ]]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='t.me/Mo_Tech_YT'),
-                    InlineKeyboardButton('Source Code', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('Update Channel', url='t.me/Thanimaibots'),
+                    InlineKeyboardButton('Source Code', url='t.me/Thanimaisupport')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}".format(TUTORIAL), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
