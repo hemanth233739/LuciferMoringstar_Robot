@@ -16,7 +16,7 @@ LOG_CHANNEL = BROADCAST_CHANNEL
 
 db = Database(DB_URL, SESSION)
 
-START_MSG.format(message.from_user.first_name),
+START_MSG
             
             
          
