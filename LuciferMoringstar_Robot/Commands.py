@@ -157,7 +157,10 @@ async def start(bot, message):
     ],
                             [
     
-        InlineKeyboardButton(text="Updates 📢", url="t.me/Thanimaibots"),
+        
+                                        
+                                        
+                                       InlineKeyboardButton(text="Updates 📢", url="t.me/Thanimaibots"),
         InlineKeyboardButton(text="Support 💬", url="t.me/Thanimaisupport"),
                                         ],
     
