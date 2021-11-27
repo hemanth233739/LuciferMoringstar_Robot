@@ -163,7 +163,9 @@ async def start(bot, message):
                                        InlineKeyboardButton(
                                                    
                                                   "Updates 📢", url="t.me/Thanimaibots"),
-        InlineKeyboardButton("Support 💬", url="t.me/Thanimaisupport"),
+        
+                            InlineKeyboardButton(
+                                                "Support 💬", url="t.me/Thanimaisupport"),
                                         ],
     
     
@@ -177,12 +179,13 @@ async def start(bot, message):
                             (
                                 "About🤠", callback_data="about"
                             )
-                    ],
+                    ]
                         
                 ]
             )
                     
         )
+)
         StopPropagation
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
