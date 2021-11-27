@@ -178,8 +178,10 @@ async def start(bot, message):
                                 "About🤠", callback_data="about"
                             )
                     ]
+                        
                 ]
             )
+                    ]
         )
         StopPropagation
 
