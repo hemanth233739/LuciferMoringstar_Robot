@@ -141,7 +141,7 @@ async def start(bot, message):
                 [
                     [
                         InlineKeyboardButton(
-                       "🔎Search Here", switch_inline_query_current_chat=),
+                       "🔎Search Here", switch_inline_query_current_chat=''),
                         InlineKeyboardButton(
                        "🤖More Botz", url="https://t.me/Thanimaibots"), 
                     ],
