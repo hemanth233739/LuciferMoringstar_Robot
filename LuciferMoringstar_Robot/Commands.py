@@ -174,12 +174,12 @@ async def start(bot, message):
                         
                             
                                 
-                            
-                        InlineKeyboardButton
+  
+              InlineKeyboardButton
                             (
                                 "About🤠", callback_data="about"
                             )
-                    ]
+                    
                         
                 ]
             )
