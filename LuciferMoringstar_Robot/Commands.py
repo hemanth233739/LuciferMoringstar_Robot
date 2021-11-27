@@ -26,14 +26,14 @@ Join my [news channel](t.me/Thanimaibots) to get updated about me.
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaimoivesbot?startgroup=true"),
+            text="➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaimoviesbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Updates 📢", url="t.me/Thanimaibots"),
         InlineKeyboardButton(text="Support 💬", url="t.me/Thanimaisupport"),
     ],
     [
-        InlineKeyboardButton(text="Source 🖥️", callback_data="hell"),
+        InlineKeyboardButton(text="Source 🖥️", callback_data="help"),
         InlineKeyboardButton(text="About 🤖", callback_data="about"),
     ],
     
