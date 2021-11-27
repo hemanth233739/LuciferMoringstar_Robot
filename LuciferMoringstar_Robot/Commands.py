@@ -33,8 +33,8 @@ buttons = [
         InlineKeyboardButton(text="Support 💬", url="t.me/Thanimaisupport"),
     ],
     [
-        InlineKeyboardButton(text="Source 🖥️", callback_data=""),
-        InlineKeyboardButton(text="About 🤖", callback_data=""),
+        InlineKeyboardButton(text="Source 🖥️", callback_data="hell"),
+        InlineKeyboardButton(text="About 🤖", callback_data="about"),
     ],
     
         
