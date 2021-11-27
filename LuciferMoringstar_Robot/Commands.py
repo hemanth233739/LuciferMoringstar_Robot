@@ -153,9 +153,9 @@ async def start(bot, message):
                     [
     
                           InlineKeyboardButton(
-            text="➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaimoviesbot?startgroup=true"),
+            "➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaimoviesbot?startgroup=true"),
     ],
-                            [
+                            
     
         
                                         
@@ -177,11 +177,11 @@ async def start(bot, message):
                             (
                                 "About🤠", callback_data="about"
                             )
-                    ]
+                    ],
                         
                 ]
             )
-                    ]
+                    
         )
         StopPropagation
 
