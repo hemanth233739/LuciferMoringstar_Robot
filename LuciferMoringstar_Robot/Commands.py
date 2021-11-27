@@ -16,6 +16,33 @@ LOG_CHANNEL = BROADCAST_CHANNEL
 
 db = Database(DB_URL, SESSION)
 
+
+PM_START_TEXT = """
+Hey there! My name is Thanimai arasan.
+I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you . 
+Join my [news channel](t.me/Thanimaibots) to get updated about me. 
+"""
+
+buttons = [
+    [
+        InlineKeyboardButton(
+            text="➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaimoivesbot?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(text="Updates 📢", url="t.me/Thanimaibots"),
+        InlineKeyboardButton(text="Support 💬", url="t.me/Thanimaisupport"),
+    ],
+    [
+        InlineKeyboardButton(text="Source 🖥️", callback_data=""),
+        InlineKeyboardButton(text="About 🤖", callback_data=""),
+    ],
+    
+        
+
+      
+    ],
+]
+
 @Client.on_message(filters.command("start"))
 async def start(bot, message):
     chat_id = message.from_user.id
