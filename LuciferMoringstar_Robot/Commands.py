@@ -140,52 +140,29 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton
-                            (
-                                "🔎Search Here", switch_inline_query_current_chat=''
-                            ),
-                        InlineKeyboardButton
-                            (
-                                "🤖More Botz", url="https://t.me/Thanimaibots"
-                            )
+                        InlineKeyboardButton(
+                       "🔎Search Here", switch_inline_query_current_chat=),
+                        InlineKeyboardButton(
+                       "🤖More Botz", url="https://t.me/Thanimaibots"), 
                     ],
-                            
                     [
-    
-                          InlineKeyboardButton(
-            "➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaimoviesbot?startgroup=true"),
-    ],
-                            
-    
+                       InlineKeyboardButton(
+                      "➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaimoviesbot?startgroup=true"),
+                    ],
+                    [       
+                       InlineKeyboardButton(
+                      "Updates 📢", url="t.me/Thanimaibots"),        
+                       InlineKeyboardButton(
+                      "Support 💬", url="t.me/Thanimaisupport"),
+                    ],
+                    [
+                       InlineKeyboardButton(
+                      "About🤠", callback_data="about"), 
         
-                                        
-                                        
-                                       InlineKeyboardButton(
-                                                   
-                                                  "Updates 📢", url="t.me/Thanimaibots"),
-        
-                            InlineKeyboardButton(
-                                                "Support 💬", url="t.me/Thanimaisupport"),
-                                        ],
-    
-    
-        
-      
-                        
-                            
-                                
-  
-              InlineKeyboardButton
-                            (
-                                "About🤠", callback_data="about"
-                            )
-                    
-                        
-                ]
+                   ]
+               ]
             )
-                    
         )
-)
         StopPropagation
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
