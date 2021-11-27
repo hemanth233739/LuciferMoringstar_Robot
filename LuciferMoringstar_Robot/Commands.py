@@ -40,7 +40,7 @@ buttons = [
         
 
       
-    ],
+    
 ]
 
 @Client.on_message(filters.command("start"))
