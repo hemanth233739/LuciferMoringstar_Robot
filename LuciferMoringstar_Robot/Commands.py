@@ -138,7 +138,7 @@ async def start(bot, message):
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                        [Name] ("https://telegra.ph/file/335b3715ea8f5108337c8.jpg")
+                        
                 [
                     [
                         InlineKeyboardButton(
