@@ -18,7 +18,8 @@ db = Database(DB_URL, SESSION)
 
 
             
-Start_MSG= "https://telegra.ph/file/335b3715ea8f5108337c8.jpg" 
+
+START_IMG= "https://telegra.ph/file/335b3715ea8f5108337c8.jpg"
          
                 
 
@@ -133,8 +134,8 @@ async def start(bot, message):
             )
         )
     else:
-        await message.reply_text(
-            START_MSG.format(message.from_user.first_name),
+        await message.reply_photo(
+            START_IMG,START_MSG.format(message.from_user.first_name),
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
