@@ -141,13 +141,16 @@ async def start(bot, message):
                 [
                     [
                         InlineKeyboardButton(
-                       "🔎Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton(
-                       "🤖More Botz", url="https://t.me/Thanimaibots"), 
+                                    
+                      "➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaimoviesbot?startgroup=true"),
                     ],
+                       
                     [
                        InlineKeyboardButton(
-                      "➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaimoviesbot?startgroup=true"),
+                      "🔎Search Here", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton(
+                       "🤖More Botz", url="https://t.me/Thanimaibots"), 
+                    
                     ],
                     [       
                        InlineKeyboardButton(
