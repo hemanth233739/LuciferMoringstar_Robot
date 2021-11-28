@@ -20,8 +20,7 @@ db = Database(DB_URL, SESSION)
             
 
 START_IMG= "https://telegra.ph/file/335b3715ea8f5108337c8.jpg"
-     
-   START_MSG= "hello fellow"             
+START_MSG= "hello fellow"         
 
 
 
