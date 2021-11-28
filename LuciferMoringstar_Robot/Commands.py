@@ -134,7 +134,7 @@ async def start(bot, message):
         )
     else:
         await message.reply_photo(
-            START_IMG,caption= "hello {}".format(message.from_user.first_name),
+            START_MSG,caption= "hello {}".format(message.from_user.first_name),
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
