@@ -93,7 +93,7 @@ def get_reply_markup(query):
         InlineKeyboardButton('More Botz', url='t.me/thanimaibots')
         ],[
         InlineKeyboardButton('🖥️ Developer 🖥️', url='t.me/sarbudeen786')
-     ')
+     
         ],[
         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
         ]]
