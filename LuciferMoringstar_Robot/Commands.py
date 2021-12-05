@@ -105,7 +105,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ Developer🖥️', url="t.me/sarbudeen786")
+                        InlineKeyboardButton('🖥️ Developer🖥️', url="t.me/HEMANTHGAMING1K")
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
@@ -143,21 +143,21 @@ async def start(bot, message):
                     [
                         InlineKeyboardButton(
                                     
-                      "➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaimoviesbot?startgroup=true"),
+                      "➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/MOVIES_MOD_BOT?startgroup=true"),
                     ],
                        
                     [
                        InlineKeyboardButton(
                       "🔎Search Here", switch_inline_query_current_chat=''),
                         InlineKeyboardButton(
-                       "🤖More Botz", url="https://t.me/Thanimaibots"), 
+                       "🤖More Botz", url="https://t.me/hgbotsupdates"), 
                     
                     ],
                     [       
                        InlineKeyboardButton(
-                      "Updates 📢", url="t.me/Thanimaibots"),        
+                      "Updates 📢", url="t.me/hgbotsupdates"),        
                        InlineKeyboardButton(
-                      "Support 💬", url="t.me/Thanimaisupport"),
+                      "Support 💬", url="t.me/hgbotsupportgroup"),
                     ],
                     [
                        InlineKeyboardButton(
